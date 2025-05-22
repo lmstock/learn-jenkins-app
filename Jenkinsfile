@@ -17,6 +17,7 @@ pipeline {
                     npm ci
                     npm run build
                     ls -al
+                    echo "test"
                 '''
             }
         }
